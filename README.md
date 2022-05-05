@@ -44,6 +44,3 @@ And that's it! You can launch the tool simply like that:
 ```bash
 ./VTScriptv0.1.py
 ```
-
-# TODO / TOADD
-
