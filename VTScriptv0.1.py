@@ -12,7 +12,7 @@
 import json
 import vt
 
-API_client = vt.Client("YOUR_API_KEY_HERE")	# Personal API key, need change for git push
+API_client = vt.Client("YOUR_API_KEY_HERE")	# Personal API key
 
 def existing_file_vt():
 	file = API_client.get_object("/files/" + input("\n\x1b[94m[-]\033[0m SHA256 of the file: "))  # SHA256 search through API
